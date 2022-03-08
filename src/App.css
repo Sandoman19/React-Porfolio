@@ -1,9 +1,23 @@
 .navApp {
-  background-color: rgb(40, 40, 240);
+  background-color: rgb(90, 140, 240);
   color: white;
   font-size: 20px;
   padding: 20px;
   border-bottom: 7px rgb(40, 40, 240) ;
+}
+
+a {
+  color: white;
+}
+
+#projectColour {
+  background-color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#projectName {
+  color: rgb(40, 40, 240);
 }
 
 #name {
@@ -15,8 +29,6 @@
   padding-bottom: 30px;
   background-color: rgb(184, 174, 174);
 }
-
-
 
 .card-header {
   border-top: 5px solid rgb(40, 40, 240);
@@ -32,4 +44,10 @@
 
 .aboutApp, .portfolioApp, .contactApp, html {
   background-color: rgb(184, 174, 174);
+}
+
+@media (min-width: 768px) {
+  .min-width-600-md {
+    min-width: 600px;
+  }
 }

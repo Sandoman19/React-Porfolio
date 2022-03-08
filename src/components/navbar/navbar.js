@@ -14,7 +14,7 @@ const mainPage = () => {
           </div>
           <div className="col-md-3">
           </div>
-          <div className="col-md-1">
+          <div id="nav" className="col-md-1">
             <Link to="/About">About Me</Link>
           </div>
           <div className="col-md-1">
