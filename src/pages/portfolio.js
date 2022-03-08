@@ -28,8 +28,11 @@ const portfolio = () => {
             <h3>
               Portfolio
             </h3>
+            <h6>
+              Please click on the picture to see useable app.
+              Click on the name to go to the github page.
+            </h6>
           </div>
-
           <div className="card-body col-md-12">
             <div id="projectColour" class="container-fluid">
               <div className="row">
